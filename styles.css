@@ -1,0 +1,80 @@
+
+#main {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 50px auto 0;
+}
+
+.player-score {
+    padding-top: 15px;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.score-board {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.score-black,
+.score-white {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.score-black {
+    border: 1px solid white;
+    background-color: red;
+}
+
+.score-white {
+    border: 1px solid red;
+    background-color: white;
+}
+
+#board-container {
+    width: 100%;
+}
+
+#board {
+    width: 560px;
+    height: 560px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 70px;
+    height: 70px;
+    outline: 1px solid black;
+    background-color: rgb(199, 68, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-black {
+    background-color: black;
+}
+
+.piece-white,
+.piece-black {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.piece-white {
+    border: 1px solid red;
+    background-color: white;
+}
+
+.piece-black {
+    border: 1px solid white;
+    background-color: red;
+}
